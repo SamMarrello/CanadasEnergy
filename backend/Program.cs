@@ -16,7 +16,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.Logger.IsEnabled(LogLevel.Debug);
+
+
+    app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
