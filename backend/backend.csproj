@@ -8,8 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="NodaTime" Version="3.1.6" />
+    <PackageReference Include="NodaTime.Serialization.JsonNet" Version="3.0.1" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="UnitsNet" Version="5.0.0-rc009" />
   </ItemGroup>
 
 </Project>

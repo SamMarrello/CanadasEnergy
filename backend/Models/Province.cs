@@ -1,8 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace backend.Models;
 
-public class Province
+public enum Province
 {
-    public int Id { get; set; }
-    public int Name { get; set; }
-    public Dictionary<GenerationBreakdown, double> Breakdown { get; set; }
+    Ontario,
+    BritishColumbia,
+    Manitoba,
+    Quebec,
+    Newfoundland,
+    PrinceEdwardIsland,
+    NovaScotia,
+    NewBrunswick,
+    Alberta,
+    Saskatchewan,
+    Nunavut,
+    NorthWestTerritories,
+    Yukon,
+    Max
 }
